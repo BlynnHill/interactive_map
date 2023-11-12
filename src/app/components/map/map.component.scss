@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    height: 90vh;
+
+    .map-column {
+        flex: 3; 
+        padding: 100px;
+    }
+
+    table {
+        background: #005B41; 
+        padding: 20px;
+        width: 80%;
+        border-collapse: separate;
+        border-spacing: 0 20px; 
+        font-size: 18px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        }
+
+    .information-column {
+        flex: 1;
+        display: flex; 
+        align-items: center;
+    }
+
+
+    table tr td {
+        color: #ffffff;
+    }
+
+    th {
+        color: rgb(255, 255, 255);
+    }
+    
+    caption {
+        font-size: 22px;
+        padding: 30px;
+        text-transform: uppercase; 
+        background-color: #232D3F;
+        color:white;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+      }
+    
+    
+}
+
+
+
+
